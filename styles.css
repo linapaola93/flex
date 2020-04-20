@@ -1,0 +1,32 @@
+.dice{
+width: 200px;
+height: 200px;
+border: 1px solid #444444;
+border-radius: 4px;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.point{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #444444;
+    display: inline-block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.dice:nth-child(2){
+    background-color: yellow;
+}
+.point:nth-child(1){
+    background-color: red;
+}
+.point:nth-child(2){
+    background-color: blue;
+}
